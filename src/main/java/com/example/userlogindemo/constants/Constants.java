@@ -15,6 +15,10 @@ public class Constants {
 
     public static final Charset CHARSET = StandardCharsets.UTF_8;
 
+    public static final Integer TOKEN_EXPIRE_TIME = 60 * 60 * 1000;
+
+    public static final Integer TOKEN_RESET_TIME = 1000 * 100;
+
     public interface Flag {
         Integer YES = 1;
         Integer NO = 0;
